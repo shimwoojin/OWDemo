@@ -4,11 +4,13 @@
 
 USniperGunShotCameraShake::USniperGunShotCameraShake()
 {
-	OscillationDuration = 1.0f;
+	float Duration = .5f;
+
+	OscillationDuration = Duration;
 	OscillationBlendInTime = .05f;
 	OscillationBlendOutTime = .05f;
 
 	RotOscillation.Pitch.Amplitude = 5.f;
-	RotOscillation.Pitch.Frequency = PI;
+	RotOscillation.Pitch.Frequency = PI / Duration;
 	RotOscillation.Pitch.InitialOffset = EInitialOscillatorOffset::EOO_OffsetZero;
 }
