@@ -15,3 +15,9 @@ UE 4.26 C++, RPG (Weapons, Inventory, SaveGame)
 [닷지 : Shift]
 [공격 : 마우스 좌클릭(길게 누르기 포함)]
 [공격 보조 : 마우스 우클릭(길게 누르기 포함)]
+
+!코드!
+
+Source 폴더 내 C++ 코드 있음
+OWDemo : 메인 로직을 담당하는 모듈
+OWDemoSetting : OWDemo의 세팅 값을 다루는 모듈
