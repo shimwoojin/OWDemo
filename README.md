@@ -29,4 +29,4 @@ UE 4.26 C++, RPG (Weapons, Inventory, SaveGame)
 - 캐릭터와 플레이어의 인터페이스를 세분화 하여 더 나은 객체지향적인 설계를 하고자 함
 - Rifle의 Bullet, Sniper의 Bullet, Pistol의 Bullet 등 클래스가 많아지는 것을 염려하여 Bullet에 디자인 패턴을 적용 (생성 - 빌더)
 - 무기 스왑 시 UI가 바뀐다거나 캐릭터의 무기 별 자세가 바뀌어야 하는 부분은 델리게이트를 사용하여 유연한 구조, 일종의 옵저버 패턴
-- 충돌과 관련하여 각 개체를 구분하여 Obejct Type과 Preset을 작성 -> Preset에 대한 문자열 의존성을 줄이기 위하여 서브 모듈의 const static 키워드를 사용하여 관리
+- 충돌과 관련하여 각 개체를 구분하여 Obejct Type과 Preset을 작성 -> Preset에 대한 문자열 의존성을 줄이기 위하여 서브 모듈에 게임 세팅 클래스 내 const static 키워드를 사용하여 관리
