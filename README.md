@@ -25,3 +25,8 @@ Source 폴더 내 C++ 코드 있음
 OWDemo : 메인 로직을 담당하는 모듈
 
 OWDemoSetting : OWDemo의 세팅 값을 다루는 모듈
+
+!상세!
+
+- 캐릭터와 플레이어의 인터페이스를 세분화 하여 더 나은 객체지향적인 설계를 하고자 함
+- Rifle의 Bullet, Sniper의 Bullet, Pistol의 Bullet 등 클래스가 많아지는 것을 염려하여 Bullet에 디자인 패턴을 적용 (생성 - 빌더)
